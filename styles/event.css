@@ -1,0 +1,23 @@
+#icon-legend {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+main legend {
+  font: var(--Heading-Sm);
+  color: var(--text-heading);
+}
+
+#titulo {
+  font: var(--Body-Sm);
+  color: var(--text-body);
+}
+
+.input-wrapper {
+  margin-top: 1.5rem;
+}
+
+.input-wrapper label {
+  display: block;
+}
