@@ -50,6 +50,54 @@
                 placeholder="Nome do evento"
               />
             </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label id="titulo" for="start">Início</label>
+                <input type="date" id="start" name="start" />
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label id="titulo" for="end">Fim</label>
+                <input type="date" id="end" name="end" />
+              </div>
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper">
+                <label id="titulo" for="start">Tipo</label>
+                <div class="toggle-container">
+                  <div class="toggle-option active">
+                    <img src="assets/icons/building-2.svg" alt="Presencial" />
+                    <h3>Presencial</h3>
+                  </div>
+                  <div class="toggle-option">
+                    <img src="assets/icons/video.svg" alt="Online" />
+                    <h3>Online</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="input-wrapper">
+                <label id="titulo" for="text">Local</label>
+                <input
+                  type="text"
+                  id="start"
+                  name="title"
+                  placeholder="Link ou endereço"
+                />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label id="titulo" for="text">Descrição</label>
+              <textarea
+                type="text"
+                id="title"
+                cols="30"
+                rows="5"
+                placeholder="Escreva sobre os detalhes do evento"
+              ></textarea>
+            </div>
           </fieldset>
         </header>
       </main>

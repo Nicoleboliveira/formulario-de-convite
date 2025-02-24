@@ -13,6 +13,7 @@ aside {
   background-image: url(../assets/Background.png);
   border-radius: 0.75rem;
   background-size: cover;
+  background-position: center;
 }
 
 aside header {
@@ -33,6 +34,7 @@ main {
   background-color: var(--shape-body);
   margin-left: 1rem;
   border-radius: 0.75rem;
+  overflow: auto;
 }
 main header {
   margin: 5rem 8.1rem;
@@ -51,7 +53,6 @@ input,
 textarea,
 select {
   appearance: none;
-  width: 46.6rem;
   border-radius: 0.5rem;
   border: 1px solid var(--input-stroke);
   background-color: var(--input-base);
@@ -59,4 +60,5 @@ select {
   margin-top: 0.75rem;
   font: var(--Body-Sm);
   color: var(--input-placeholder);
+  position: relative;
 }

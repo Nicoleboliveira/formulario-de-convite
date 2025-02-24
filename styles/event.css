@@ -15,9 +15,67 @@ main legend {
 }
 
 .input-wrapper {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .input-wrapper label {
   display: block;
+}
+
+#title {
+  width: 37rem;
+}
+
+#start {
+  width: 17rem;
+}
+#end {
+  width: 17rem;
+}
+
+.toggle-container {
+  display: flex;
+  background: var(--input-base);
+  border-radius: 8px;
+  padding: 4px;
+  width: 18.5rem;
+  height: 2.9rem;
+  border: 1px solid var(--input-stroke);
+  margin-top: 0.75rem;
+}
+
+.toggle-option {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font: var(--Body-Sm);
+
+  color: #a3a3a3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.3s;
+}
+
+.toggle-option.active {
+  background: rgb(59, 59, 59);
+  color: #ffffff;
+}
+
+.toggle-option img {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(0.6);
+}
+
+.toggle-option.active img {
+  filter: brightness(1);
+}
+
+main h2 {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 }
