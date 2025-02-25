@@ -35,6 +35,11 @@
   gap: 1rem;
   justify-content: flex-start;
 }
+
+.flex-4 {
+  display: flex;
+  gap: 5rem;
+}
 input:focus,
 select:focus,
 textarea:focus,
